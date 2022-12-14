@@ -6,6 +6,6 @@ app = FastAPI()
 
 @app.get("/")
 async def not_timed():
-    return {"message": "Added about message"}
+    return {"message": "Added about message changed now"}
 
     
